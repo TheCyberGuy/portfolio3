@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sas Csanad Web Developer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" defer> </script>
+    <script src="./js/bootstrap.bundle.js" defer> </script>
+    <script src="./js/animate.js" defer> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.js" defer> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js" defer> </script>
+    <script src="./js/scrollanimate.js" type="text/javascript" defer> </script>
+  </head>
+  <body>
+    <div class="container-fluid" id="bg">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent text-dark" id="nav-bar">
+        <div class="container-fluid d-lg-flex justify-content-end sticky-top" id="navContainer">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse text-light d-lg-flex justify-content-center" id="navbarNav">
+            <div class="container d-lg-flex flex-row justify-content-evenly w-25">
+              <div class="nav-div d-lg-flex justify-content-center text-align-center" id="navNavs"><a class="nav-link active" href="#aboutMe">Rólam</a></div>
+              <div class="nav-div d-lg-flex justify-content-center text-align-center" id="navNavs"><a class="nav-link active" href="#worked">Referenciák</a></div>
+              <div class="nav-div d-lg-flex justify-content-center text-align-center" id="navNavs"><a class="nav-link active" href="#contact">Kontakt</a></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container min-vw-25" id="introducion">
+        <h1 class="my-3">Üdv, Csanád Vagyok </h1>
+        <h3 class="mb-3">Egy ambiciózus webfejlesztő</h3>
+      </div>
+      <div class="container w-50 text-center text-light h-50" id="down"><a id="a" href="#aboutMe" style="text-decoration: none">
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28" id="arrow">
+            <path fill="none" d="M0 0h24v24H0z"></path>
+            <path d="M13 16.172l5.364-5.364 1.414 1.414L12 20l-7.778-7.778 1.414-1.414L11 16.172V4h2v12.172z" fill="rgba(255,255,255,1)"></path>
+          </svg>
+          <p id="downtext">Görgessen lejebb</p></a></div>
+    </div>
+    <div class="container-fluid d-flex flex-column justify-content-center text-center" id="aboutMe">
+      <div class="container mt-1"><img class="rounded img-fluid portrait" src="./assets/me.jpg" alt="" srcset=""></div>
+      <div class="container">
+        <h2><span id="greeting">S</span><span id="greeting">z</span><span id="greeting">i</span><span id="greeting">a</span><span id="greeting">!</span></h2>
+      </div>
+      <div class="container">
+        <hr>
+      </div>
+      <div class="container mt-3" id="aboutTextContainer">
+        <p id="aboutText">17 éves webfejlesztő vagyok <span id="location">Budapesten, Magyarországon  </span>szenvedélyem van mindenhez, ami informatikával kapcsolatos, de leginkább a webfejlesztéshez.</p>
+      </div>
+    </div>
+    <div class="container-fluid text-centerd align-content-center" id="whatido">
+      <p class="text-center lead pt-lg-5 pt-1" id="whatidoText">RÓLAM</p>
+      <div class="container-fluid d-flex flex-row justify-content-center mt-xl-5 mt-sm-4 mt-md-4 mt-lg-5">
+        <div class="container text-center p-0" id="top-left"><img class="mt-5" id="ico" src="./assets/code.svg" width="48" alt="">
+          <p class="h5 mt-1" id="title">Fejlesztés</p>
+          <hr class="darkHR my-3" id="sep">
+          <div class="container" id="w-33">
+            <p id="short">Szenvedélyesen fejlesztek weboldalakat. Szeretek Vue.js-el is babrálni.</p>
+          </div>
+        </div>
+        <div class="container text-center p-0" id="top-right"><img class="mt-5" id="ico" src="./assets/framer.svg" width="48" alt="">
+          <p class="h5 mt-1" id="title">Tervezés</p>
+          <hr class="darkHR my-3">
+          <div class="container" id="w-33">
+            <p class="mb-5" id="short">Amikor fáradt vagyok, és kikapcsolódni akarok honlap dizájnokat szoktam csinálni, szeretek minimalitsa és modern UI-t késziteni</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid d-flex flex-row justify-content-center">
+        <div class="container text-center p-0" id="bot-left"><img class="mt-5" id="ico" src="./assets/github.svg" width="48" alt="">
+          <p class="h5 mt-1" id="title">Nyílt forráskód</p>
+          <hr class="darkHR my-3">
+          <div class="container" id="w-33">
+            <p class="mb-5" id="short">Szabadidőmben szeretek nyílt forráskódú projektekben közreműködni.</p>
+          </div>
+        </div>
+        <div class="container text-center p-0" id="bot-right"><img class="mt-5" id="ico" src="./assets/star.svg" width="48" alt="">
+          <p class="h5 mt-1" id="title">Csillagászat</p>
+          <hr class="darkHR my-3">
+          <div class="container" id="w-33">
+            <p id="short">A hobbim a kódoláson kívül a csillagászat, szeretek elveszni a végtelen égbolton.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid d-flex flex-column" id="worked">
+      <p class="mt-4 display-5 text-center">Technologiák</p>
+      <div class="container text-start mt-5" id="techContainer">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="techstacktop">
+            <h3>HTML - Pug</h3>
+          </li>
+          <li class="list-group-item" id="techstack">
+            <h3>CSS - SCSS, Bootstrap, Tailwind</h3>
+          </li>
+          <li class="list-group-item" id="techstack"> 
+            <h3>Javascript - Vue.js, GSAP</h3>
+          </li>
+          <li class="list-group-item" id="techstackbottom">
+            <h3>Egyeb - SEO, Responsive Design</h3>
+          </li>
+        </ul>
+      </div>
+      <div class="container text-center mt-5"><a id="a2" href="https://dpm-bau.com" target="_blank"> <img class="ref" src="./assets/dpm-bau.png" alt="alt">
+          <p class="mt-2" id="refp">Referncia munkám</p></a></div>
+    </div>
+    <div class="container-fluid d-flex flex-column text-center" id="contact">
+      <h2 class="cont">Keressen Fel</h2>
+      <div class="container d-flex d-flex-row justify-content-evenly" id="conticon">
+        <div><a href="https://www.facebook.com/csanad.sas/"><img id="FB" src="./assets/facebook.svg" width="38"></a></div>
+        <div><a href="mailto:sascsani@gmail.com"> <img id="mail" src="./assets/mail.svg" width="38"></a></div>
+        <div><a href="https://www.instagram.com/_saslik_/"><img id="IG" src="./assets/instagram.svg" width="38"></a></div>
+      </div>
+      <p id="copyright">© 2022 Copyright: Sas Csanád</p>
+    </div>
+  </body>
+</html>
