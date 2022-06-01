@@ -58,7 +58,6 @@ const aboutMe_scene = new ScrollMagic.Scene({
     offset: window.innerHeight < 1000 ? -157 : -25,
 })
     .setTween(aboutMe_Animation)
-    .addIndicators()
     .addTo(controller);
 
 
@@ -68,5 +67,4 @@ const whatIDo_scene = new ScrollMagic.Scene({
     offset: window.innerHeight < 1000 ? -175 : -110,
 })
     .setTween(whatIDo_Animation)
-    .addIndicators()
     .addTo(controller);
